@@ -14,6 +14,7 @@ C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\AdminLteTemplate.csp
 C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\AdminLteTemplate.MvcApplicationPartsAssemblyInfo.cache
 C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\AdminLteTemplate.RazorAssemblyInfo.cache
 C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\AdminLteTemplate.RazorAssemblyInfo.cs
+C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\AdminLteTemplate.sourcelink.json
 C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\scopedcss\bundle\AdminLteTemplate.styles.css
 C:\Adnan\AdminLteTemplate\AdminLteTemplate\obj\Debug\net8.0\scopedcss\projectbundle\AdminLteTemplate.bundle.scp.css

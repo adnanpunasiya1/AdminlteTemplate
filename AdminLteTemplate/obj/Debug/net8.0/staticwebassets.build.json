@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cNT4eS/bDovKcRMap4z1cVDHyjNzu8Rf4HY5QhCKRoE=",
+  "Hash": "csFfrOiByDshIfnV8v5y95+g0RYMY0FdRFEooGgKah4=",
   "Source": "AdminLteTemplate",
   "BasePath": "_content/AdminLteTemplate",
   "Mode": "Default",
@@ -1781,6 +1781,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\frame.png",
+      "SourceId": "AdminLteTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\",
+      "BasePath": "_content/AdminLteTemplate",
+      "RelativePath": "frame#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3hrd8fj6qj",
+      "Integrity": "qd+fzKymeQSaNyh8NUCv6fLutFJLAR2UCwx1dmQoJhY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\frame.png"
+    },
+    {
       "Identity": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\js\\site.js",
       "SourceId": "AdminLteTemplate",
       "SourceType": "Discovered",
@@ -3023,7 +3044,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 06:40:25 GMT"
+          "Value": "Wed, 20 Nov 2024 04:38:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3060,7 +3081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 06:40:25 GMT"
+          "Value": "Wed, 20 Nov 2024 04:38:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3105,7 +3126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 06:40:25 GMT"
+          "Value": "Wed, 20 Nov 2024 04:38:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3150,7 +3171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 06:40:25 GMT"
+          "Value": "Wed, 20 Nov 2024 04:38:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9885,6 +9906,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "frame.3hrd8fj6qj.png",
+      "AssetFile": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\frame.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qd+fzKymeQSaNyh8NUCv6fLutFJLAR2UCwx1dmQoJhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 06:16:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3hrd8fj6qj"
+        },
+        {
+          "Name": "label",
+          "Value": "frame.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qd+fzKymeQSaNyh8NUCv6fLutFJLAR2UCwx1dmQoJhY="
+        }
+      ]
+    },
+    {
+      "Route": "frame.png",
+      "AssetFile": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\frame.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qd+fzKymeQSaNyh8NUCv6fLutFJLAR2UCwx1dmQoJhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 06:16:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qd+fzKymeQSaNyh8NUCv6fLutFJLAR2UCwx1dmQoJhY="
         }
       ]
     },

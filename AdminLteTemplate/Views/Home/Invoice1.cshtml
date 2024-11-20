@@ -1,0 +1,447 @@
+﻿@{
+    ViewData["Title"] = "Invoice Page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdminLTE 3 | Invoice Print</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css?v=3.2.0">
+</head>
+<body>
+    <style>
+        td {
+            padding: 0 !important;
+        }
+
+        th {
+            padding: 0 !important;
+        }
+
+        body {
+            /* border-color: #dee2e6 !important; */
+        }
+
+        @@media print {
+            @@page {
+                size: A4 landscape;
+                margin: 15px;
+            }
+
+            header, footer {
+                display: none;
+            }
+        }
+    </style>
+    <div class="wrapper" style="border:1px solid ;padding:15px 15px 5px 15px">
+        <!-- Main content -->
+        <section class="invoice">
+            <!-- title row -->
+            <div class="row" style="border-top:1px solid #fff ;border-bottom:1px solid;">
+
+                <div class="col-sm-5 invoice-col">
+                    <h4 class="page-header">
+                        <i class="fas fa-globe"></i> BookBazaar Products
+                    </h4>
+                </div>
+                <div class="col-sm-3 invoice-col">
+                    <h4 class="page-header" style="float:right">
+                        <small class="float-right">Duplicate</small>
+                    </h4>
+                </div>
+                <div class="col-sm-4 invoice-col">
+                    <h4 class="page-header" style="float:right" >
+                        <small class="float-right">Tax Invoice</small>
+                    </h4>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- info row -->
+            <div class="row invoice-info">
+                <div class="col-sm-5 invoice-col">
+                    <address>
+                        Plote No 701,Mega GIDC At Po Kharedi<br>
+                        Ahmedabad,Gujarat
+                        San Francisco, CA 94107<br>
+                        Phone: (804) 123-5432<br>
+                    </address>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-3 invoice-col" style="border-left: 1px solid;border-right: 1px solid;">
+                    <h4>T15935</h4></>
+                    Invoice Date:11/11/2024<br />
+                    Mode:Cash<br />
+                    Due Date:11/11/2024<br />
+                </div>
+                <div class="col-sm-4 invoice-col">
+                    <b>Invoice #007612</b><br>
+                    <br>
+                    <b>Order ID:</b> 4F3S8J<br>
+                    <b>Payment Due:</b> 2/22/2014<br>
+                    <b>Account:</b> 968-34567
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+            <!-- Table row -->
+            <div class="row" style="border-top:1px solid;border-bottom:1px solid;">
+                <div class="col-12 table-responsive">
+                    <table class="table table-striped" style="height:340px">
+                        <thead>
+                            <tr>
+                                <th>sr.</th>
+                                <th>Item Name</th>
+                                <th>Qty</th>
+                                <th>Ammount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Call of Duty</td>
+                                <td>455-981-221</td>
+                                <td>$64.50</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Need for Speed IV</td>
+                                <td>247-925-726</td>
+                                <td>$50.00</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Grown Ups Blue Ray</td>
+                                <td>422-568-642</td>
+                                <td>$25.99</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr><tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2" style="text-align: right;"><strong>Total</strong></td>
+                                <td><strong>144.00</strong></td>
+                                <td><strong>1.98</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row" style="border-top:1px solid;margin-top:5px">
+                <!-- accepted payments column -->
+                <div class="col-9">
+                    <p class="lead" style="margin:0;border-bottom:1px solid">Ammount In Words:</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="text-muted well well-sm shadow-none" style="margin-top: 10px;">
+                                PLEASE CHECK MATERIAL WHEN DELIVERED THEN PAY
+                                NO REPLACEMENT IN ANY PRODUCTS
+                                FSSAI: 10717008000136
+                                ORDER MOBILE NO: 6354987360 9327882008
+                                ORDER TIMING: 4 PM TO 8 PM BEFORE 1 DAY
+                                SUBJECT TO DAHOD JURISDICTION
+                                Software by VISUAL INFOSOFT PVT. LTD. : Customer Care No:
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <img src="~/frame.png" style="height:100px;width:85%" />
+                        </div>
+                        <div class="col-4">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-3">
+                    <div class="table-responsive">
+                        <table class="table table-borderless table-striped" style="margin:0">
+                            <tr>
+                                <th style="width:50%">Subtotal:</th>
+                                <td>$250.30</td>
+                            </tr>
+                            <tr>
+                                <th>Tax (9.3%)</th>
+                                <td>$10.34</td>
+                            </tr>
+                            <tr>
+                                <th>Shipping:</th>
+                                <td>$5.80</td>
+                            </tr>
+                            <tr>
+                                <th>Total:</th>
+                                <td>$265.24</td>
+                            </tr>
+                        </table>
+                        <strong>For, BookBazaar Products</strong>
+                        <p style="height:30px"></p>
+                        <strong>Authorised Signature</strong>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper" style="border:1px solid ;padding:15px 15px 5px 15px">
+        <!-- Main content -->
+        <section class="invoice">
+            <!-- title row -->
+            <div class="row" style="border-top:1px solid #fff ;border-bottom:1px solid;">
+
+                <div class="col-sm-5 invoice-col">
+                    <h4 class="page-header">
+                        <i class="fas fa-globe"></i> BookBazaar Products
+                    </h4>
+                </div>
+                <div class="col-sm-3 invoice-col">
+                    <h4 class="page-header" style="float:right">
+                        <small class="float-right">Duplicate</small>
+                    </h4>
+                </div>
+                <div class="col-sm-4 invoice-col">
+                    <h4 class="page-header" style="float:right">
+                        <small class="float-right">Tax Invoice</small>
+                    </h4>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- info row -->
+            <div class="row invoice-info">
+                <div class="col-sm-5 invoice-col">
+                    <address>
+                        Plote No 701,Mega GIDC At Po Kharedi<br>
+                        Ahmedabad,Gujarat
+                        San Francisco, CA 94107<br>
+                        Phone: (804) 123-5432<br>
+                    </address>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-3 invoice-col" style="border-left: 1px solid;border-right: 1px solid;">
+                    <h4>T15935</h4></>
+                    Invoice Date:11/11/2024<br />
+                    Mode:Cash<br />
+                    Due Date:11/11/2024<br />
+                </div>
+                <div class="col-sm-4 invoice-col">
+                    <b>Invoice #007612</b><br>
+                    <br>
+                    <b>Order ID:</b> 4F3S8J<br>
+                    <b>Payment Due:</b> 2/22/2014<br>
+                    <b>Account:</b> 968-34567
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+            <!-- Table row -->
+            <div class="row" style="border-top:1px solid;border-bottom:1px solid;">
+                <div class="col-12 table-responsive">
+                    <table class="table table-striped" style="height:340px">
+                        <thead>
+                            <tr>
+                                <th>sr.</th>
+                                <th>Item Name</th>
+                                <th>Qty</th>
+                                <th>Ammount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Call of Duty</td>
+                                <td>455-981-221</td>
+                                <td>$64.50</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Need for Speed IV</td>
+                                <td>247-925-726</td>
+                                <td>$50.00</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Grown Ups Blue Ray</td>
+                                <td>422-568-642</td>
+                                <td>$25.99</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Monsters DVD</td>
+                                <td>735-845-642</td>
+                                <td>$10.70</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2" style="text-align: right;"><strong>Total</strong></td>
+                                <td><strong>144.00</strong></td>
+                                <td><strong>1.98</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row" style="border-top:1px solid;margin-top:5px">
+                <!-- accepted payments column -->
+                <div class="col-9">
+                    <p class="lead" style="margin:0;border-bottom:1px solid">Ammount In Words:</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="text-muted well well-sm shadow-none" style="margin-top: 10px;">
+                                PLEASE CHECK MATERIAL WHEN DELIVERED THEN PAY
+                                NO REPLACEMENT IN ANY PRODUCTS
+                                FSSAI: 10717008000136
+                                ORDER MOBILE NO: 6354987360 9327882008
+                                ORDER TIMING: 4 PM TO 8 PM BEFORE 1 DAY
+                                SUBJECT TO DAHOD JURISDICTION
+                                Software by VISUAL INFOSOFT PVT. LTD. : Customer Care No:
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <img src="~/frame.png" style="height:100px;width:85%" />
+                        </div>
+                        <div class="col-4">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-3">
+                    <div class="table-responsive">
+                        <table class="table table-borderless table-striped" style="margin:0">
+                            <tr>
+                                <th style="width:50%">Subtotal:</th>
+                                <td>$250.30</td>
+                            </tr>
+                            <tr>
+                                <th>Tax (9.3%)</th>
+                                <td>$10.34</td>
+                            </tr>
+                            <tr>
+                                <th>Shipping:</th>
+                                <td>$5.80</td>
+                            </tr>
+                            <tr>
+                                <th>Total:</th>
+                                <td>$265.24</td>
+                            </tr>
+                        </table>
+                        <strong>For, BookBazaar Products</strong>
+                        <p style="height:30px"></p>
+                        <strong>Authorised Signature</strong>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
+        window.addEventListener("load", window.print());
+    </script>
+</body>
+</html>

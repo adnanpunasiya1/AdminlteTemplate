@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminLteTemplate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7058d1e518ef57c0a526a4d935828bd6bd392202")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95d7536072fc70c0bc0000e76ae7f0063c745fe0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminLteTemplate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminLteTemplate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

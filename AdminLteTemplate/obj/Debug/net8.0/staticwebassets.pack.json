@@ -333,6 +333,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\frame.png",
+      "PackagePath": "staticwebassets\\frame.png"
+    },
+    {
       "Id": "C:\\Adnan\\AdminLteTemplate\\AdminLteTemplate\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

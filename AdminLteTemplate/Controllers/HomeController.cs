@@ -22,6 +22,10 @@ namespace AdminLteTemplate.Controllers
         {
             return View();
         }
+        public IActionResult Invoice1()
+        {
+            return View();
+        }
         public IActionResult login()
         {
             return View();
